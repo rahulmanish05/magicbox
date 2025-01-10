@@ -1,0 +1,85 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    color: #333;
+}
+
+/* Container styling */
+.container {
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+/* Box styling */
+.box {
+    margin-bottom: 20px;
+}
+
+/* Heading style */
+h1 {
+    font-size: 36px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Input field styling */
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2e8b57;
+}
+
+/* Styling for success and message text */
+#message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d9534f;
+    margin-top: 20px;
+}
+
+#message.success {
+    color: #5bc0de;
+}
+
+/* Level message styling */
+#level {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+/* Image styling with rounded corners */
+#image {
+    border-radius: 15px; /* Adjust the value to control the roundness */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for more depth */
+}

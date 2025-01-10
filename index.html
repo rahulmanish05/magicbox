@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Box Game</title>
+    <link rel="stylesheet" href="m.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Magic Box Game</h1>
+        <div class="box">
+            <img id="image" src="img1.jpg" alt="Box Image" width="300" height="300">
+        </div>
+        <p>Guess the number (1-10):</p>
+        <input type="number" id="userInput" min="1" max="10">
+        <button onclick="checkGuess()">Submit</button>
+        <p id="message"></p>
+        <p id="level">Level: 1</p>
+    </div>
+    <script src="m.js"></script>
+</body>
+</html>
